@@ -1,0 +1,421 @@
+@charset "UTF-8";
+
+html { 
+    font-family: Arial; 
+}
+
+/* //////////////////// body corpo da página em geral //////////////////// */
+body {
+    width: auto;
+    height: auto;
+    margin: 0 10px 10px 10px;
+    background-color: #ffffff;
+    border-left: 1px solid #fe5700;
+    border-right: 1px solid #fe5700;
+    border-bottom: 1px solid #fe5700;
+    box-shadow: 0px 0px 5px rgba(254, 87, 0, .9);
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* //////////////////////////// header ///////////////////////////// */
+#header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    margin: 0 1px;
+    border-bottom: 1px solid #fe5700;
+}
+figure.foto-logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0px 10px 5px;
+    border: 1px solid #ffffff;
+}
+figure.foto-logo img {
+    width: 100%;
+    height: 100%;
+}
+#header h1 {
+    position: relative;
+    width: auto;
+    margin: 10px 96px 0 0;
+    padding: 5px;
+    border: 1px solid #ffffff;
+}
+h1 span {
+    display: inline-block;
+    font-family: Arial black;
+}
+
+/* Menu Superior */
+nav#menu {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 3px;
+    padding: 1px;
+    border: 1px solid #ffffff;
+}
+nav#menu ul {
+    list-style: none;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #ffffff;
+}
+nav#menu li {
+    display: inline-block;
+    border: 1px solid #ffffff;
+}
+nav#menu a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px; /* autura dos botões - afasta das letras */
+    margin: 1px 1px 1px 1px; /* espaço entre os botões do menu  */
+    width: 120px; /* tamanho dos botões do menu */
+    background-color: #000000;
+    transition: background-color 1s;
+    border: 1px solid #ffffff;
+}
+nav#menu a:hover {
+    background-color: #f55d00;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* /////////////////////////// body div //////////////////////////// */
+#bodyng {
+    height: auto;
+    width: 83%;
+    margin: 1px;
+    padding: 0px 15px;
+    background-color: #ffffff;
+    border-right: 1px solid #fe5700;
+}
+h1 {
+    font-size: 28pt;
+    color: #000000;
+}
+h2 {
+    font-size: 16pt;
+    color: #fe5700;
+}
+p {
+    text-align: justify;
+    font-size: 12pt;
+    color: #000000;
+    font-weight: bold;
+}
+.divinfo {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #fe5700;
+}
+
+/* //////////////////// imagens do body div //////////////////// */
+figure.foto-marketing {
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: 0px auto;
+}
+figure.foto-marketing img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-marketing figcaption {
+    position: absolute;
+}
+
+/* ////////// imagens mining ////////// */
+.foto-POWS {
+    position: relative;
+    width: 740px;
+    height: 378px;
+    margin: 20px auto;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+}
+
+/* ////////// imagens Vitalik ////////// */
+figure.foto-legenda {
+    position: relative;
+    width: 529px;
+    height: 245px;
+    margin: 30px auto;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* //////////////////// column (coluna lateral) //////////////////// */
+#column {
+    display: flex;
+}
+
+.t-h2 {
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #fe5700;
+    margin: 10px 3px 10px 3px;
+    border: 1px solid #ffffff;
+}
+nav#projects {
+    height: auto;
+    width: 15%;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #ffffff;
+}
+nav#projects ul {
+    position: relative;
+    display: block;
+    list-style: none;
+    height: auto;
+    width: auto;
+    margin: 1px 3px;
+    padding: 1px;
+    border: 1px solid #ffffff;
+}
+nav#projects li {
+    position: relative;
+    display: block;
+    height: auto;
+    width: 175px;
+    margin: 1px 2px 1px 2px;
+    background-color: #000000;
+    transition: background-color 1s;
+    border: 1px solid #ffffff;
+}
+nav#projects a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 165px;
+    padding: 5px;
+    transition: background-color 1s;
+    border: 1px solid #ffffff;
+}
+nav#projects li:hover {
+    background-color: #fe5700;
+}
+nav#projects a:hover {
+    color: #000000;
+}
+/* ////////// coins edição lateral ////////// */
+nav#projects li sup {
+    font-family: Arial black;
+    font-size: 11pt;
+    font-weight: bold;
+}
+.grey {
+    font-family: Arial black;
+    font-size: 8pt;
+    color: rgba(195,195,195, .8);
+    font-weight: bold;
+}
+nav#projects img {
+    width: 42px;
+    height: 42px;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////// tabela de pagamentos ////////////////////// */
+.table {
+    width: 700px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.table_journal td:first-child {
+    font-weight: bold;
+}
+.table_journal td:nth-child(2) {
+     font-weight: bold;
+}
+.table th {
+    text-align: left;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+}
+.table td {
+    height: 30px;
+    vertical-align: middle;
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.table tbody tr:hover {
+    background-color: #F2F2F2; /* cinza da seleção */
+}
+.table tbody tr:hover a {
+  color: #fe5700; /* cor laranja ao passar o mouse em cima do link verificar */
+} 
+.table td:last-child {
+    text-align: right;
+}
+.table td a {
+    color: #1E90FF; /* azul do link verificar */
+    text-decoration: none;
+}
+/* ////////// Next das páginas em transações ////////// */
+#next {
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    width: auto;
+    margin: 10px auto 20px auto;
+    padding: 10px;
+}
+#next a {
+    display: inline-block;
+    font-weight: normal;
+    color: #1E90FF; /* azul do link next */
+    text-decoration: none;
+}
+#next b {
+    font-weight: bold;
+    color: #494949; /* seleção da tabela do next */
+    text-decoration: none;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* //////////////////////// cadastro e login /////////////////////// */
+section.logcad {
+    display: block;
+    height: auto;
+    border: 1px solid #ffffff;
+}
+div#corpo-form {
+    position: relative;
+    width: 420px;
+    height: auto;
+    margin: 80px auto 90px auto;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 2px rgba(254, 87, 0, .9);
+}
+div#corpo-form-Cad {
+    width: 420px;
+    height: auto;
+    margin: 15px auto 15px auto;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 2px rgba(254, 87, 0, .9);
+}
+div#corpo-form h2, div#corpo-form-Cad h2 {
+    text-align: center;
+}
+input {
+    display: block;
+    height: 40px;
+    width: 380px;
+    margin: 10px;
+    border: 1px solid #000000;
+    font-size: 14pt;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.01);
+    color: #000000;
+    outline: none;
+}
+input[type=submit] {
+    background-color: #fe5700;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 400px;
+}
+input[type=submit]:hover {
+    background-color: #208320; /* #006400 */
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 400px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+::-webkit-input-placeholder { /* ewkit browsers */
+    color: #000;
+}
+
+:-moz-placeholder { /* firefox 4 a 18 */
+    color: #000;
+}
+
+::-moz-placeholder { /* firefox 19+ */
+    color: #000;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #000;
+}
+
+nav.Links {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+a.linke {
+    padding-left: 10px;
+    float: left;
+    padding-bottom: 5px;
+}
+a.linkd {
+    padding-right: 10px;
+    float: right;
+    padding-bottom: 5px;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////// footer //////////////////////////// */
+#footer {
+    clear: both;
+    height: auto;
+    padding: 5px;
+    border-top: 1px solid #fe5700;
+}
+#footer p {
+    text-align: center;
+}
+#footer span {
+    display: inline-block;
+    position: relative;
+}
